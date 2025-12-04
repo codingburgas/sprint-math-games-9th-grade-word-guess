@@ -49,3 +49,14 @@ void hangman(string word, int length, int maxMistakes) {
     for (int i = 0; i < 30; i++) {
         letterUncovered[i] = false;
     }
+    while (mistakes < maxMistakes) {
+
+        for (int i = 0; i < length; i++) {
+            if (!letterUncovered[i]) {
+                wordUncovered = false;
+                break;
+            }
+            else {
+                wordUncovered = true;
+            }
+        }
