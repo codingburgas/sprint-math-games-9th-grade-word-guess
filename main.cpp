@@ -41,3 +41,11 @@ void drawHangman(int mistakes, int maxMistakes)
     cout << "  |" << endl;
     cout << "======" << endl;
 }
+
+void hangman(string word, int length, int maxMistakes) {
+    int mistakes = 0, wrongLetterArrayIndex = 0;
+    char guess, lettersTried[127];
+    bool won = false, letterFound = false, letterUncovered[30], wordUncovered = false, wrongLetterFound = false;
+    for (int i = 0; i < 30; i++) {
+        letterUncovered[i] = false;
+    }
