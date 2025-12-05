@@ -60,31 +60,3 @@ void hangman(string word, int length, int maxMistakes) {
                 wordUncovered = true;
             }
         }
-        if (wordUncovered) {
-            cout << endl << "YOU WON!, THE WORD WAS '" << word << "'! MISTAKES MADE: " << mistakes << "/" << maxMistakes << "!" << endl;
-            won = true;
-            break;
-        }
-        drawHangman(mistakes, maxMistakes);
-        cout << "WRONG LETTERS: ";
-        for (int i = 0; i < wrongLetterArrayIndex; i++) {
-            cout << lettersTried[i] << " ";
-        }
-        cout << endl << "THE WORD: ";
-        for (int i = 0; i < length; i++) {
-            if (!letterUncovered[i]) {
-                cout << "_";
-            }
-            else {
-                cout << word[i];
-            }
-        }
-        cout << endl;
-        cout << "TAKE A GUESS: ";
-        cin >> guess;
-        for (int i = 0; i < length; i++) {
-            if (toupper(guess) == toupper(word[i])) {
-                letterFound = true;
-                letterUncovered[i] = true;
-            }
-        }
