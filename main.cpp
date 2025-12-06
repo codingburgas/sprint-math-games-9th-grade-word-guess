@@ -109,3 +109,20 @@ void hangman(string word, int length, int maxMistakes) {
         cout << endl << endl << "YOU LOST! THE WORD WAS '" << word << "'!" << endl;
     }
 }
+int main() {
+    srand(time(0));
+    int maxMistakes = 6;
+    while (true) {
+        string wordArray[15] = { "HANGMAN", "MATHS", "CODING", "KEYBOARD", "MOUSE", "MONITOR", "COMPUTER", "CHESS", "FUNCTION", "VARIABLE", "ARRAY", "GAME", "PROJECT", "PROGRAM", "DIPLOMA" };
+        int randomIndex = rand() % 15, choice = 0;
+        string word = wordArray[randomIndex];
+        int length = word.length();
+        bool endProgram = false, noDigits = true;
+        cout << "WELCOME TO THE HANGMAN! DO YOU WANT TO PLAY A GAME, SET UP CUSTOM GAME OR EXIT?"
+            << endl << endl << "1. PLAY" << endl << "2. CUSTOM GAME" << endl << "3. HOW TO PLAY?" << endl << "4.EXIT" << endl << endl;
+        cin >> choice;
+        switch (choice) {
+        case 1: {
+            hangman(word, length, maxMistakes);
+            break;
+        }
