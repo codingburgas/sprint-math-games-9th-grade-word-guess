@@ -88,24 +88,3 @@ void hangman(string word, int length, int maxMistakes) {
                 letterUncovered[i] = true;
             }
         }
-        if (!letterFound) {
-            cout << "SORRY, THERE IS NO SUCH LETTER!" << endl;
-            mistakes++;
-            for (int i = 0; i <= wrongLetterArrayIndex; i++) {
-                if (toupper(lettersTried[i]) == toupper(guess)) {
-                    wrongLetterFound = true;
-                }
-            }
-            if (!wrongLetterFound) {
-                lettersTried[wrongLetterArrayIndex] = guess;
-                wrongLetterArrayIndex++;
-            }
-        }
-        else {
-            letterFound = false;
-        }
-    }
-    if (!won) {
-        cout << endl << endl << "YOU LOST! THE WORD WAS '" << word << "'!" << endl;
-    }
-}
