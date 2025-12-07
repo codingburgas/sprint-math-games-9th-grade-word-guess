@@ -32,9 +32,9 @@
 ## 📂 Documentation & Presentation
 
 ### 📋 Documentation
-[Documentation](https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/f309089b9db6beef4107ae7cb5d3d8fdba910fd3/Word-Guess.pdf) <!-- Линк към PDF файл -->
+[Documentation](https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/f309089b9db6beef4107ae7cb5d3d8fdba910fd3/Word-Guess.pdf) 
 ### 🎤 Presentation
-[Presentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
+[Presentation](https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/de98c5430bc7f5fffa165605b7b9c1a3f9759869/Word%20Guess%20presentation.pdf)
 
 
 ## 👨🏻‍💻 Team Members
