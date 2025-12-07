@@ -1,7 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/durmtwmj)
-# Sprint Math Games - Word Guess game
-<img src="https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/e36f493389919d6c61dd99f33417a9febe7b8ed8/logo.png" alt="team logo" width="200">
-<p>This game helps you to test your skills in solving math equations and your fast thinking</p>
+# THEME: Game of words && Math Games
+# TEAM: Word Guess
+<p><img src="https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/e36f493389919d6c61dd99f33417a9febe7b8ed8/logo.png" alt="team logo" width="200"></p>
 
 ---
 
@@ -33,7 +32,7 @@
 ## 📂 Documentation & Presentation
 
 ### 📋 Documentation
-[Documentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
+[Documentation](https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/f309089b9db6beef4107ae7cb5d3d8fdba910fd3/Word-Guess.pdf) <!-- Линк към PDF файл -->
 ### 🎤 Presentation
 [Presentation](/docs/technical_specs.pdf) <!-- Линк към PDF файл -->
 
