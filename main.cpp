@@ -120,7 +120,7 @@ int main() {
         int length = word.length();
         bool endProgram = false, noDigits = true;
         cout << "WELCOME TO THE HANGMAN! DO YOU WANT TO PLAY A GAME, SET UP CUSTOM GAME OR EXIT?"
-            << endl << endl << "1. PLAY" << endl << "2. CUSTOM GAME" << endl << "3. HOW TO PLAY?" << endl << "4.EXIT" << endl << endl;
+            << endl << endl << "1. PLAY" << endl << "2. CUSTOM GAME" << endl << "3. HOW TO PLAY?" << endl << "4. EXIT" << endl << endl;
         cin >> choice;
         switch (choice) {
             case 1: {
@@ -154,3 +154,22 @@ int main() {
                 hangman(customWord, lengthCustomWord, maxMistakes);
                 break;
             }
+            case 3: {
+                cout << "ADJUST YOUR MAXIMAL MISTAKES. WHEN YOU'LL MAKE THIS AMOUNT OF MISTAKES, YOU LOSE! (average: 6, now: " << maxMistakes << ")" << endl;
+                cin >> maxMistakes;
+                break;
+            }
+            case 4: {
+                endProgram = true;
+                break;
+            }
+            default: {
+                cout << "SORRY, NOT AN OPTION" << endl;
+            }
+        }
+        if (endProgram) {
+            break;
+        }
+    }
+    return 0;
+}
