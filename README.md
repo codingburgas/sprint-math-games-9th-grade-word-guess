@@ -1,6 +1,6 @@
-# Sprint Math Games - Word Guess game
-<img src="https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/e36f493389919d6c61dd99f33417a9febe7b8ed8/logo.png" alt="team logo" width="200">
-<p>This game helps you to test your skills in solving math equations and your fast thinking</p>
+# THEME: Game of words && Math Games
+# TEAM: Word Guess
+<p><img src="https://github.com/codingburgas/sprint-math-games-9th-grade-word-guess/blob/e36f493389919d6c61dd99f33417a9febe7b8ed8/logo.png" alt="team logo" width="200"></p>
 
 ---
 
