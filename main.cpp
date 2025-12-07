@@ -120,7 +120,7 @@ int main() {
         int length = word.length();
         bool endProgram = false, noDigits = true;
         cout << "WELCOME TO THE HANGMAN! DO YOU WANT TO PLAY A GAME, SET UP CUSTOM GAME OR EXIT?"
-            << endl << endl << "1. PLAY" << endl << "2. CUSTOM GAME" << endl << "3. HOW TO PLAY?" << endl << "4. EXIT" << endl << endl;
+            << endl << endl << "1.PLAY" << endl << "2.CUSTOM GAME" << endl << "3.HOW TO PLAY?" << endl << "4.EXIT" << endl << endl;
         cin >> choice;
         switch (choice) {
             case 1: {
